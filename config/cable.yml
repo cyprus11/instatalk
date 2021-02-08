@@ -6,5 +6,4 @@ test:
 
 production:
   adapter: redis
-  url: ...
-  channel_prefix: instatalk_production
+  url: <%= ENV['REDISTOGO_URL'] %>
